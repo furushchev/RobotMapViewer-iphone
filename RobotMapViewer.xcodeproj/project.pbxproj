@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		F85E57111A5BD46E0073451E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57101A5BD46E0073451E /* main.m */; };
 		F85E57141A5BD46E0073451E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57131A5BD46E0073451E /* AppDelegate.m */; };
-		F85E57171A5BD46E0073451E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57161A5BD46E0073451E /* ViewController.m */; };
 		F85E571A1A5BD46E0073451E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85E57181A5BD46E0073451E /* Main.storyboard */; };
 		F85E571C1A5BD46E0073451E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85E571B1A5BD46E0073451E /* Images.xcassets */; };
 		F85E571F1A5BD46E0073451E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85E571D1A5BD46E0073451E /* LaunchScreen.xib */; };
 		F85E572B1A5BD46F0073451E /* RobotMapViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E572A1A5BD46F0073451E /* RobotMapViewerTests.m */; };
+		F85E57361A5BD60A0073451E /* ConfigurationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */; };
+		F85E573F1A5BD63E0073451E /* geometry_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E57371A5BD63E0073451E /* geometry_msgs.framework */; };
+		F85E57401A5BD63E0073451E /* ros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E57381A5BD63E0073451E /* ros.framework */; };
+		F85E57411A5BD63E0073451E /* std_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E57391A5BD63E0073451E /* std_msgs.framework */; };
+		F85E57421A5BD63E0073451E /* log4cxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E573A1A5BD63E0073451E /* log4cxx.framework */; };
+		F85E57431A5BD63E0073451E /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E573B1A5BD63E0073451E /* boost.framework */; };
+		F85E57441A5BD63E0073451E /* nav_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E573C1A5BD63E0073451E /* nav_msgs.framework */; };
+		F85E57451A5BD63E0073451E /* rosgraph_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E573D1A5BD63E0073451E /* rosgraph_msgs.framework */; };
+		F85E57461A5BD63E0073451E /* sensor_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E573E1A5BD63E0073451E /* sensor_msgs.framework */; };
+		F85E57491A5BD6760073451E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E57481A5BD6750073451E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,23 @@
 		F85E57101A5BD46E0073451E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F85E57121A5BD46E0073451E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F85E57131A5BD46E0073451E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F85E57151A5BD46E0073451E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F85E57161A5BD46E0073451E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F85E57191A5BD46E0073451E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F85E571B1A5BD46E0073451E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F85E571E1A5BD46E0073451E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F85E57241A5BD46F0073451E /* RobotMapViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotMapViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85E57291A5BD46F0073451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85E572A1A5BD46F0073451E /* RobotMapViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RobotMapViewerTests.m; sourceTree = "<group>"; };
+		F85E57341A5BD60A0073451E /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigurationViewController.mm; sourceTree = "<group>"; };
+		F85E57371A5BD63E0073451E /* geometry_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = geometry_msgs.framework; sourceTree = "<group>"; };
+		F85E57381A5BD63E0073451E /* ros.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ros.framework; sourceTree = "<group>"; };
+		F85E57391A5BD63E0073451E /* std_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = std_msgs.framework; sourceTree = "<group>"; };
+		F85E573A1A5BD63E0073451E /* log4cxx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = log4cxx.framework; sourceTree = "<group>"; };
+		F85E573B1A5BD63E0073451E /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
+		F85E573C1A5BD63E0073451E /* nav_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nav_msgs.framework; sourceTree = "<group>"; };
+		F85E573D1A5BD63E0073451E /* rosgraph_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rosgraph_msgs.framework; sourceTree = "<group>"; };
+		F85E573E1A5BD63E0073451E /* sensor_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sensor_msgs.framework; sourceTree = "<group>"; };
+		F85E57481A5BD6750073451E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85E57491A5BD6760073451E /* libiconv.dylib in Frameworks */,
+				F85E57441A5BD63E0073451E /* nav_msgs.framework in Frameworks */,
+				F85E573F1A5BD63E0073451E /* geometry_msgs.framework in Frameworks */,
+				F85E57431A5BD63E0073451E /* boost.framework in Frameworks */,
+				F85E57401A5BD63E0073451E /* ros.framework in Frameworks */,
+				F85E57461A5BD63E0073451E /* sensor_msgs.framework in Frameworks */,
+				F85E57421A5BD63E0073451E /* log4cxx.framework in Frameworks */,
+				F85E57411A5BD63E0073451E /* std_msgs.framework in Frameworks */,
+				F85E57451A5BD63E0073451E /* rosgraph_msgs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +108,11 @@
 		F85E570D1A5BD46E0073451E /* RobotMapViewer */ = {
 			isa = PBXGroup;
 			children = (
+				F85E57471A5BD6540073451E /* Frameworks */,
 				F85E57121A5BD46E0073451E /* AppDelegate.h */,
 				F85E57131A5BD46E0073451E /* AppDelegate.m */,
-				F85E57151A5BD46E0073451E /* ViewController.h */,
-				F85E57161A5BD46E0073451E /* ViewController.m */,
+				F85E57341A5BD60A0073451E /* ConfigurationViewController.h */,
+				F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */,
 				F85E57181A5BD46E0073451E /* Main.storyboard */,
 				F85E571B1A5BD46E0073451E /* Images.xcassets */,
 				F85E571D1A5BD46E0073451E /* LaunchScreen.xib */,
@@ -117,6 +145,22 @@
 				F85E57291A5BD46F0073451E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85E57471A5BD6540073451E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85E57481A5BD6750073451E /* libiconv.dylib */,
+				F85E57371A5BD63E0073451E /* geometry_msgs.framework */,
+				F85E57381A5BD63E0073451E /* ros.framework */,
+				F85E57391A5BD63E0073451E /* std_msgs.framework */,
+				F85E573A1A5BD63E0073451E /* log4cxx.framework */,
+				F85E573B1A5BD63E0073451E /* boost.framework */,
+				F85E573C1A5BD63E0073451E /* nav_msgs.framework */,
+				F85E573D1A5BD63E0073451E /* rosgraph_msgs.framework */,
+				F85E573E1A5BD63E0073451E /* sensor_msgs.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85E57171A5BD46E0073451E /* ViewController.m in Sources */,
 				F85E57141A5BD46E0073451E /* AppDelegate.m in Sources */,
 				F85E57111A5BD46E0073451E /* main.m in Sources */,
+				F85E57361A5BD60A0073451E /* ConfigurationViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +387,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RobotMapViewer",
+				);
 				INFOPLIST_FILE = RobotMapViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RobotMapViewer",
+				);
 				INFOPLIST_FILE = RobotMapViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +464,7 @@
 				F85E57301A5BD46F0073451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F85E57311A5BD46F0073451E /* Build configuration list for PBXNativeTarget "RobotMapViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				F85E57331A5BD46F0073451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
