@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F808156D1A5E78610098EED6 /* tf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808156C1A5E78610098EED6 /* tf.framework */; };
+		F808156F1A5E98C80098EED6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808156E1A5E98C70098EED6 /* QuartzCore.framework */; };
+		F80815801A5F73560098EED6 /* MRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F808157F1A5F73550098EED6 /* MRoundedButton.m */; };
 		F85E57111A5BD46E0073451E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57101A5BD46E0073451E /* main.m */; };
 		F85E57141A5BD46E0073451E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57131A5BD46E0073451E /* AppDelegate.m */; };
 		F85E571A1A5BD46E0073451E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85E57181A5BD46E0073451E /* Main.storyboard */; };
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F808156C1A5E78610098EED6 /* tf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tf.framework; sourceTree = "<group>"; };
+		F808156E1A5E98C70098EED6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F808157E1A5F73550098EED6 /* MRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRoundedButton.h; sourceTree = "<group>"; };
+		F808157F1A5F73550098EED6 /* MRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRoundedButton.m; sourceTree = "<group>"; };
 		F85E570B1A5BD46E0073451E /* RobotMapViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotMapViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85E570F1A5BD46E0073451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85E57101A5BD46E0073451E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F808156F1A5E98C80098EED6 /* QuartzCore.framework in Frameworks */,
 				F8FEF5361A5E49660057E283 /* boost.framework in Frameworks */,
 				F8FEF53A1A5E49660057E283 /* ros.framework in Frameworks */,
 				F8FEF5391A5E49660057E283 /* nav_msgs.framework in Frameworks */,
@@ -82,6 +90,7 @@
 				F8FEF5381A5E49660057E283 /* log4cxx.framework in Frameworks */,
 				F85E57491A5BD6760073451E /* libiconv.dylib in Frameworks */,
 				F8FEF53B1A5E49660057E283 /* rosgraph_msgs.framework in Frameworks */,
+				F808156D1A5E78610098EED6 /* tf.framework in Frameworks */,
 				F8FEF53D1A5E49660057E283 /* std_msgs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80815811A5F735F0098EED6 /* MRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				F808157E1A5F73550098EED6 /* MRoundedButton.h */,
+				F808157F1A5F73550098EED6 /* MRoundedButton.m */,
+			);
+			name = MRoundedButton;
+			sourceTree = "<group>";
+		};
 		F85E57021A5BD46E0073451E = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +177,9 @@
 		F85E57471A5BD6540073451E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F80815811A5F735F0098EED6 /* MRoundedButton */,
+				F808156E1A5E98C70098EED6 /* QuartzCore.framework */,
+				F808156C1A5E78610098EED6 /* tf.framework */,
 				F8FEF52E1A5E49660057E283 /* boost.framework */,
 				F8FEF52F1A5E49660057E283 /* geometry_msgs.framework */,
 				F8FEF5301A5E49660057E283 /* log4cxx.framework */,
@@ -243,6 +264,7 @@
 				TargetAttributes = {
 					F85E570A1A5BD46E0073451E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MQCJ3ZHHUS;
 					};
 					F85E57231A5BD46F0073451E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -294,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80815801A5F73560098EED6 /* MRoundedButton.m in Sources */,
 				F85E57141A5BD46E0073451E /* AppDelegate.m in Sources */,
 				F85E574F1A5BF4DD0073451E /* RosMapManager.mm in Sources */,
 				F85E57111A5BD46E0073451E /* main.m in Sources */,
@@ -421,13 +444,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RobotMapViewer",
 				);
 				INFOPLIST_FILE = RobotMapViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -435,13 +463,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RobotMapViewer",
 				);
 				INFOPLIST_FILE = RobotMapViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
