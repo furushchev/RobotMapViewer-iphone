@@ -2,6 +2,7 @@
 # platform :ios, '6.0'
 
 target 'RobotMapViewer' do
+  pod "ROSiOS"
   pod "ROSiOS-core"
   pod "ROSiOS-tf"
   pod "ROSiOS-nav_msgs"
