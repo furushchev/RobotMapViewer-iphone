@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F808156D1A5E78610098EED6 /* tf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808156C1A5E78610098EED6 /* tf.framework */; };
+		C0DF7E2F61D1389CFD0CA991 /* libPods-RobotMapViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314DE44F782BD66E9FA75C6C /* libPods-RobotMapViewer.a */; };
 		F808156F1A5E98C80098EED6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808156E1A5E98C70098EED6 /* QuartzCore.framework */; };
 		F80815801A5F73560098EED6 /* MRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F808157F1A5F73550098EED6 /* MRoundedButton.m */; };
 		F85E57111A5BD46E0073451E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E57101A5BD46E0073451E /* main.m */; };
@@ -16,18 +16,8 @@
 		F85E571C1A5BD46E0073451E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85E571B1A5BD46E0073451E /* Images.xcassets */; };
 		F85E571F1A5BD46E0073451E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85E571D1A5BD46E0073451E /* LaunchScreen.xib */; };
 		F85E572B1A5BD46F0073451E /* RobotMapViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85E572A1A5BD46F0073451E /* RobotMapViewerTests.m */; };
-		F85E57361A5BD60A0073451E /* ConfigurationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */; };
-		F85E57491A5BD6760073451E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F85E57481A5BD6750073451E /* libiconv.dylib */; };
 		F85E574C1A5BF4950073451E /* MapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85E574B1A5BF4950073451E /* MapViewController.mm */; };
 		F85E574F1A5BF4DD0073451E /* RosMapManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85E574E1A5BF4DD0073451E /* RosMapManager.mm */; };
-		F8FEF5361A5E49660057E283 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF52E1A5E49660057E283 /* boost.framework */; };
-		F8FEF5371A5E49660057E283 /* geometry_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF52F1A5E49660057E283 /* geometry_msgs.framework */; };
-		F8FEF5381A5E49660057E283 /* log4cxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5301A5E49660057E283 /* log4cxx.framework */; };
-		F8FEF5391A5E49660057E283 /* nav_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5311A5E49660057E283 /* nav_msgs.framework */; };
-		F8FEF53A1A5E49660057E283 /* ros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5321A5E49660057E283 /* ros.framework */; };
-		F8FEF53B1A5E49660057E283 /* rosgraph_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5331A5E49660057E283 /* rosgraph_msgs.framework */; };
-		F8FEF53C1A5E49660057E283 /* sensor_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5341A5E49660057E283 /* sensor_msgs.framework */; };
-		F8FEF53D1A5E49660057E283 /* std_msgs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEF5351A5E49660057E283 /* std_msgs.framework */; };
 		F8FEF5401A5E49FF0057E283 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FEF53F1A5E49FF0057E283 /* UIImage+Bitmap.m */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F808156C1A5E78610098EED6 /* tf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tf.framework; sourceTree = "<group>"; };
+		314DE44F782BD66E9FA75C6C /* libPods-RobotMapViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RobotMapViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B71B108F28D3647DFE76915 /* Pods-RobotMapViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobotMapViewer.debug.xcconfig"; path = "Pods/TargetSupportFiles/Pods-RobotMapViewer/Pods-RobotMapViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A02E123F56D01FBCF5F7B8 /* Pods-RobotMapViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobotMapViewer.release.xcconfig"; path = "Pods/TargetSupportFiles/Pods-RobotMapViewer/Pods-RobotMapViewer.release.xcconfig"; sourceTree = "<group>"; };
 		F808156E1A5E98C70098EED6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F808157E1A5F73550098EED6 /* MRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRoundedButton.h; sourceTree = "<group>"; };
 		F808157F1A5F73550098EED6 /* MRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRoundedButton.m; sourceTree = "<group>"; };
@@ -57,21 +49,10 @@
 		F85E57241A5BD46F0073451E /* RobotMapViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotMapViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85E57291A5BD46F0073451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85E572A1A5BD46F0073451E /* RobotMapViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RobotMapViewerTests.m; sourceTree = "<group>"; };
-		F85E57341A5BD60A0073451E /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
-		F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigurationViewController.mm; sourceTree = "<group>"; };
-		F85E57481A5BD6750073451E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		F85E574A1A5BF4950073451E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		F85E574B1A5BF4950073451E /* MapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapViewController.mm; sourceTree = "<group>"; };
 		F85E574D1A5BF4DD0073451E /* RosMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosMapManager.h; sourceTree = "<group>"; };
 		F85E574E1A5BF4DD0073451E /* RosMapManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RosMapManager.mm; sourceTree = "<group>"; };
-		F8FEF52E1A5E49660057E283 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
-		F8FEF52F1A5E49660057E283 /* geometry_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = geometry_msgs.framework; sourceTree = "<group>"; };
-		F8FEF5301A5E49660057E283 /* log4cxx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = log4cxx.framework; sourceTree = "<group>"; };
-		F8FEF5311A5E49660057E283 /* nav_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nav_msgs.framework; sourceTree = "<group>"; };
-		F8FEF5321A5E49660057E283 /* ros.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ros.framework; sourceTree = "<group>"; };
-		F8FEF5331A5E49660057E283 /* rosgraph_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rosgraph_msgs.framework; sourceTree = "<group>"; };
-		F8FEF5341A5E49660057E283 /* sensor_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sensor_msgs.framework; sourceTree = "<group>"; };
-		F8FEF5351A5E49660057E283 /* std_msgs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = std_msgs.framework; sourceTree = "<group>"; };
 		F8FEF53E1A5E49FF0057E283 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
 		F8FEF53F1A5E49FF0057E283 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,16 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F808156F1A5E98C80098EED6 /* QuartzCore.framework in Frameworks */,
-				F8FEF5361A5E49660057E283 /* boost.framework in Frameworks */,
-				F8FEF53A1A5E49660057E283 /* ros.framework in Frameworks */,
-				F8FEF5391A5E49660057E283 /* nav_msgs.framework in Frameworks */,
-				F8FEF5371A5E49660057E283 /* geometry_msgs.framework in Frameworks */,
-				F8FEF53C1A5E49660057E283 /* sensor_msgs.framework in Frameworks */,
-				F8FEF5381A5E49660057E283 /* log4cxx.framework in Frameworks */,
-				F85E57491A5BD6760073451E /* libiconv.dylib in Frameworks */,
-				F8FEF53B1A5E49660057E283 /* rosgraph_msgs.framework in Frameworks */,
-				F808156D1A5E78610098EED6 /* tf.framework in Frameworks */,
-				F8FEF53D1A5E49660057E283 /* std_msgs.framework in Frameworks */,
+				C0DF7E2F61D1389CFD0CA991 /* libPods-RobotMapViewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F6D3D0ED789521367AC144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314DE44F782BD66E9FA75C6C /* libPods-RobotMapViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F80815811A5F735F0098EED6 /* MRoundedButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +100,8 @@
 				F85E570D1A5BD46E0073451E /* RobotMapViewer */,
 				F85E57271A5BD46F0073451E /* RobotMapViewerTests */,
 				F85E570C1A5BD46E0073451E /* Products */,
+				FC1F95C71513EB94CF8AFBED /* Pods */,
+				05F6D3D0ED789521367AC144 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,16 +161,6 @@
 			children = (
 				F80815811A5F735F0098EED6 /* MRoundedButton */,
 				F808156E1A5E98C70098EED6 /* QuartzCore.framework */,
-				F808156C1A5E78610098EED6 /* tf.framework */,
-				F8FEF52E1A5E49660057E283 /* boost.framework */,
-				F8FEF52F1A5E49660057E283 /* geometry_msgs.framework */,
-				F8FEF5301A5E49660057E283 /* log4cxx.framework */,
-				F8FEF5311A5E49660057E283 /* nav_msgs.framework */,
-				F8FEF5321A5E49660057E283 /* ros.framework */,
-				F8FEF5331A5E49660057E283 /* rosgraph_msgs.framework */,
-				F8FEF5341A5E49660057E283 /* sensor_msgs.framework */,
-				F8FEF5351A5E49660057E283 /* std_msgs.framework */,
-				F85E57481A5BD6750073451E /* libiconv.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,14 +177,21 @@
 		F85E57541A5CB8460073451E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F85E57341A5BD60A0073451E /* ConfigurationViewController.h */,
-				F85E57351A5BD60A0073451E /* ConfigurationViewController.mm */,
 				F85E574A1A5BF4950073451E /* MapViewController.h */,
 				F85E574B1A5BF4950073451E /* MapViewController.mm */,
 				F8FEF53E1A5E49FF0057E283 /* UIImage+Bitmap.h */,
 				F8FEF53F1A5E49FF0057E283 /* UIImage+Bitmap.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FC1F95C71513EB94CF8AFBED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B71B108F28D3647DFE76915 /* Pods-RobotMapViewer.debug.xcconfig */,
+				B2A02E123F56D01FBCF5F7B8 /* Pods-RobotMapViewer.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85E572E1A5BD46F0073451E /* Build configuration list for PBXNativeTarget "RobotMapViewer" */;
 			buildPhases = (
+				B689F12285A8393D2709CB2B /* Check Pods Manifest.lock */,
 				F85E57071A5BD46E0073451E /* Sources */,
 				F85E57081A5BD46E0073451E /* Frameworks */,
 				F85E57091A5BD46E0073451E /* Resources */,
+				75332973FE9A53E308BD0D54 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,7 +245,6 @@
 				TargetAttributes = {
 					F85E570A1A5BD46E0073451E = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = MQCJ3ZHHUS;
 					};
 					F85E57231A5BD46F0073451E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -311,6 +291,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75332973FE9A53E308BD0D54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/TargetSupportFiles/Pods-RobotMapViewer/Pods-RobotMapViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B689F12285A8393D2709CB2B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F85E57071A5BD46E0073451E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -320,7 +333,6 @@
 				F85E57141A5BD46E0073451E /* AppDelegate.m in Sources */,
 				F85E574F1A5BF4DD0073451E /* RosMapManager.mm in Sources */,
 				F85E57111A5BD46E0073451E /* main.m in Sources */,
-				F85E57361A5BD60A0073451E /* ConfigurationViewController.mm in Sources */,
 				F8FEF5401A5E49FF0057E283 /* UIImage+Bitmap.m in Sources */,
 				F85E574C1A5BF4950073451E /* MapViewController.mm in Sources */,
 			);
@@ -442,6 +454,7 @@
 		};
 		F85E572F1A5BD46F0073451E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B71B108F28D3647DFE76915 /* Pods-RobotMapViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -461,6 +474,7 @@
 		};
 		F85E57301A5BD46F0073451E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A02E123F56D01FBCF5F7B8 /* Pods-RobotMapViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
